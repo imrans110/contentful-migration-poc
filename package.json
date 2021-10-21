@@ -1,0 +1,28 @@
+{
+  "name": "contentful-migration-poc",
+  "version": "1.0.0",
+  "description": "A POC for contentful migration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "migrate:init": "ctf-migrate init "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imrans110/contentful-migration-poc.git"
+  },
+  "keywords": [
+    "contentful-migration"
+  ],
+  "author": "Syed Imran Abidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imrans110/contentful-migration-poc/issues"
+  },
+  "homepage": "https://github.com/imrans110/contentful-migration-poc#readme",
+  "dependencies": {
+    "contentful-migration": "^4.5.8",
+    "dotenv": "^10.0.0"
+  }
+}
