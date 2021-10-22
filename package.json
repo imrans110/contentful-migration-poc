@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "migrate:init": "ctf-migrate init ",
     "import:contentful": "contentful space import --space-id $CONTENTFUL_SPACE_ID --mt $CONTENTFUL_MANAGEMENT_ACCESS_TOKEN --content-file  ./data/contentful-seed.json",
     "export:contentful": "contentful space export --space-id $CONTENTFUL_SPACE_ID --mt $CONTENTFUL_MANAGEMENT_ACCESS_TOKEN --content-file  ./data/contentful-fetch.json",
     "seed:contentful": "dotenv-run-script .env -- import:contentful",
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/imrans110/contentful-migration-poc#readme",
   "dependencies": {
+    "contentful-management": "^7.44.2",
     "contentful-migration": "^4.5.8",
     "dotenv": "^10.0.0",
     "dotenv-run-script": "^0.1.0"

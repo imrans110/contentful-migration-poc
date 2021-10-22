@@ -12,7 +12,90 @@
         "id": "product",
         "type": "ContentType",
         "createdAt": "2021-10-21T13:37:53.979Z",
-        "updatedAt": "2021-10-21T13:38:40.002Z",
+        "updatedAt": "2021-10-21T20:46:04.067Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-10-21T20:46:04.067Z",
+        "firstPublishedAt": "2021-10-21T13:37:54.715Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Product",
+      "description": "",
+      "fields": [
+        {
+          "id": "id",
+          "name": "id",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "author",
+        "type": "ContentType",
+        "createdAt": "2021-10-21T14:59:14.952Z",
+        "updatedAt": "2021-10-21T20:46:04.668Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -21,8 +104,8 @@
           }
         },
         "publishedVersion": 3,
-        "publishedAt": "2021-10-21T13:38:40.002Z",
-        "firstPublishedAt": "2021-10-21T13:37:54.715Z",
+        "publishedAt": "2021-10-21T20:46:04.668Z",
+        "firstPublishedAt": "2021-10-21T14:59:15.353Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -47,97 +130,10 @@
           }
         }
       },
-      "displayField": "name",
-      "name": "Product",
-      "description": "",
-      "fields": [
-        {
-          "id": "id",
-          "name": "id",
-          "type": "Integer",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "name",
-          "name": "Name",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Text",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e3gmvytmw8sf"
-          }
-        },
-        "id": "author",
-        "type": "ContentType",
-        "createdAt": "2021-10-21T14:59:14.952Z",
-        "updatedAt": "2021-10-21T14:59:15.353Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-10-21T14:59:15.353Z",
-        "firstPublishedAt": "2021-10-21T14:59:15.353Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6ts1S6QNIUNY6wTWBgJCvV"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6ts1S6QNIUNY6wTWBgJCvV"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "6ts1S6QNIUNY6wTWBgJCvV"
-          }
-        }
-      },
       "displayField": null,
       "name": "Author",
       "description": "Author of blog posts or pages",
-      "fields": [
-      ]
+      "fields": []
     },
     {
       "sys": {
@@ -150,8 +146,8 @@
         },
         "id": "migration",
         "type": "ContentType",
-        "createdAt": "2021-10-21T19:24:58.853Z",
-        "updatedAt": "2021-10-21T19:24:59.250Z",
+        "createdAt": "2021-10-21T20:46:03.659Z",
+        "updatedAt": "2021-10-21T20:46:05.207Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -160,8 +156,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-10-21T19:24:59.250Z",
-        "firstPublishedAt": "2021-10-21T19:24:59.250Z",
+        "publishedAt": "2021-10-21T20:46:05.207Z",
+        "firstPublishedAt": "2021-10-21T20:46:05.207Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -196,8 +192,7 @@
           "type": "Object",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -216,10 +211,188 @@
           "omitted": false
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "versionTracking",
+        "type": "ContentType",
+        "createdAt": "2021-10-22T03:28:43.683Z",
+        "updatedAt": "2021-10-22T03:28:44.298Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:28:44.298Z",
+        "firstPublishedAt": "2021-10-22T03:28:44.298Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Version Tracking",
+      "description": "",
+      "fields": [
+        {
+          "id": "lastMigration",
+          "name": "lastMigration",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "post",
+        "type": "ContentType",
+        "createdAt": "2021-10-22T03:40:12.083Z",
+        "updatedAt": "2021-10-22T03:40:12.437Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:40:12.437Z",
+        "firstPublishedAt": "2021-10-22T03:40:12.437Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "post",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "gif",
+          "name": "gif",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": ["image"]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "first_appearance",
+          "name": "First Appearance of the character",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "author",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
     }
   ],
-  "tags": [
-  ],
+  "tags": [],
   "editorInterfaces": [
     {
       "sys": {
@@ -232,7 +405,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 6,
         "createdAt": "2021-10-21T13:37:54.841Z",
         "createdBy": {
           "sys": {
@@ -241,7 +414,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-10-21T13:38:40.894Z",
+        "updatedAt": "2021-10-21T20:46:05.994Z",
         "updatedBy": {
           "sys": {
             "id": "6ts1S6QNIUNY6wTWBgJCvV",
@@ -293,7 +466,7 @@
             "linkType": "Space"
           }
         },
-        "version": 1,
+        "version": 3,
         "createdAt": "2021-10-21T14:59:15.436Z",
         "createdBy": {
           "sys": {
@@ -302,7 +475,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-10-21T14:59:15.436Z",
+        "updatedAt": "2021-10-21T20:46:06.008Z",
         "updatedBy": {
           "sys": {
             "id": "6ts1S6QNIUNY6wTWBgJCvV",
@@ -325,8 +498,7 @@
           }
         }
       },
-      "controls": [
-      ]
+      "controls": []
     },
     {
       "sys": {
@@ -339,8 +511,8 @@
             "linkType": "Space"
           }
         },
-        "version": 1,
-        "createdAt": "2021-10-21T19:24:59.405Z",
+        "version": 2,
+        "createdAt": "2021-10-21T20:46:05.276Z",
         "createdBy": {
           "sys": {
             "id": "6ts1S6QNIUNY6wTWBgJCvV",
@@ -348,7 +520,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-10-21T19:24:59.405Z",
+        "updatedAt": "2021-10-21T20:46:06.044Z",
         "updatedBy": {
           "sys": {
             "id": "6ts1S6QNIUNY6wTWBgJCvV",
@@ -379,13 +551,129 @@
           "fieldId": "contentTypeId"
         }
       ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "e3gmvytmw8sf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-10-22T03:28:44.381Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ts1S6QNIUNY6wTWBgJCvV",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-22T03:28:45.299Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ts1S6QNIUNY6wTWBgJCvV",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "versionTracking",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "lastMigration",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "e3gmvytmw8sf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-10-22T03:40:12.592Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ts1S6QNIUNY6wTWBgJCvV",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-10-22T03:40:13.307Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ts1S6QNIUNY6wTWBgJCvV",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "post",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor"
+        },
+        {
+          "fieldId": "gif",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "first_appearance",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine"
+        }
+      ]
     }
   ],
   "entries": [
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -398,7 +686,7 @@
         "id": "HNcidmTL4q70gQxNakMND",
         "type": "Entry",
         "createdAt": "2021-10-21T13:38:52.623Z",
-        "updatedAt": "2021-10-21T13:39:23.725Z",
+        "updatedAt": "2021-10-21T20:46:06.868Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -406,8 +694,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2021-10-21T13:39:23.725Z",
+        "publishedVersion": 6,
+        "publishedAt": "2021-10-21T20:46:06.868Z",
         "firstPublishedAt": "2021-10-21T13:39:23.725Z",
         "createdBy": {
           "sys": {
@@ -423,8 +711,8 @@
             "id": "6ts1S6QNIUNY6wTWBgJCvV"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -454,8 +742,7 @@
     },
     {
       "metadata": {
-        "tags": [
-        ]
+        "tags": []
       },
       "sys": {
         "space": {
@@ -521,9 +808,664 @@
           "en-US": "Demo"
         }
       }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "6w4si89xa02wrzPNbISRgf",
+        "type": "Entry",
+        "createdAt": "2021-10-22T03:28:54.483Z",
+        "updatedAt": "2021-10-22T03:28:59.311Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-10-22T03:28:59.311Z",
+        "firstPublishedAt": "2021-10-22T03:28:59.311Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "versionTracking"
+          }
+        }
+      },
+      "fields": {
+        "lastMigration": {
+          "en-US": 1
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "3G84ulTwjCMcQWQoCgm4G4",
+        "type": "Entry",
+        "createdAt": "2021-10-22T03:40:37.246Z",
+        "updatedAt": "2021-10-22T03:40:38.216Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:40:38.216Z",
+        "firstPublishedAt": "2021-10-22T03:40:38.216Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Thor"
+        },
+        "slug": {
+          "en-US": "thor"
+        },
+        "gif": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3caPL1qzVYSGyAC8A8KQEK"
+            }
+          }
+        },
+        "first_appearance": {
+          "en-US": "Journey into Mystery #83 (August 1962)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "33PogRALNYkYE4e2iumAiU",
+        "type": "Entry",
+        "createdAt": "2021-10-22T03:40:37.270Z",
+        "updatedAt": "2021-10-22T03:40:38.632Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:40:38.632Z",
+        "firstPublishedAt": "2021-10-22T03:40:38.632Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Black Panther"
+        },
+        "slug": {
+          "en-US": "black-panther"
+        },
+        "gif": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4TRRH6jH6wmAccw488yaOW"
+            }
+          }
+        },
+        "first_appearance": {
+          "en-US": "Fantastic Four #52 (July 1966)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "2SiSYthyVaasy84IssCQAw",
+        "type": "Entry",
+        "createdAt": "2021-10-22T03:40:37.271Z",
+        "updatedAt": "2021-10-22T03:40:37.643Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:40:37.643Z",
+        "firstPublishedAt": "2021-10-22T03:40:37.643Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hawkeye"
+        },
+        "slug": {
+          "en-US": "hawkeye"
+        },
+        "gif": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "NJXdJT7M4KgUcE4uS8KUC"
+            }
+          }
+        },
+        "first_appearance": {
+          "en-US": "Tales of Suspense #57 (Sept. 1964)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "5DZ6YtRSCIYoUSW2wq4ISI",
+        "type": "Entry",
+        "createdAt": "2021-10-22T03:40:37.282Z",
+        "updatedAt": "2021-10-22T03:40:39.086Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-10-22T03:40:39.086Z",
+        "firstPublishedAt": "2021-10-22T03:40:39.086Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Groot"
+        },
+        "slug": {
+          "en-US": "groot"
+        },
+        "gif": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4jjPeB1eFGMAEeoiiAMqiQ"
+            }
+          }
+        },
+        "first_appearance": {
+          "en-US": "Tales to Astonish #13 (November 1960)"
+        }
+      }
     }
   ],
   "assets": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "4jjPeB1eFGMAEeoiiAMqiQ",
+        "type": "Asset",
+        "createdAt": "2021-10-22T03:40:13.698Z",
+        "updatedAt": "2021-10-22T03:40:36.363Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-10-22T03:40:36.363Z",
+        "firstPublishedAt": "2021-10-22T03:40:36.363Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "groot"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/e3gmvytmw8sf/4jjPeB1eFGMAEeoiiAMqiQ/e00f940a7a757188ce55bdabe00ab697/groot.gif",
+            "details": {
+              "size": 1938238,
+              "image": {
+                "width": 500,
+                "height": 500
+              }
+            },
+            "fileName": "groot.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "NJXdJT7M4KgUcE4uS8KUC",
+        "type": "Asset",
+        "createdAt": "2021-10-22T03:40:13.731Z",
+        "updatedAt": "2021-10-22T03:40:35.551Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-10-22T03:40:35.551Z",
+        "firstPublishedAt": "2021-10-22T03:40:35.551Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hawkeye"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/e3gmvytmw8sf/NJXdJT7M4KgUcE4uS8KUC/ab30f7ab499123d7845853226f68617b/hawkeye.gif",
+            "details": {
+              "size": 997007,
+              "image": {
+                "width": 500,
+                "height": 260
+              }
+            },
+            "fileName": "hawkeye.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "3caPL1qzVYSGyAC8A8KQEK",
+        "type": "Asset",
+        "createdAt": "2021-10-22T03:40:13.734Z",
+        "updatedAt": "2021-10-22T03:40:36.819Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-10-22T03:40:36.819Z",
+        "firstPublishedAt": "2021-10-22T03:40:36.819Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "thor"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/e3gmvytmw8sf/3caPL1qzVYSGyAC8A8KQEK/26bde1efd9d8c3f5ea2c6058951d2a1c/thor.gif",
+            "details": {
+              "size": 6914461,
+              "image": {
+                "width": 400,
+                "height": 400
+              }
+            },
+            "fileName": "thor.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "e3gmvytmw8sf"
+          }
+        },
+        "id": "4TRRH6jH6wmAccw488yaOW",
+        "type": "Asset",
+        "createdAt": "2021-10-22T03:40:13.739Z",
+        "updatedAt": "2021-10-22T03:40:35.972Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-10-22T03:40:35.972Z",
+        "firstPublishedAt": "2021-10-22T03:40:35.972Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ts1S6QNIUNY6wTWBgJCvV"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "black panther"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/e3gmvytmw8sf/4TRRH6jH6wmAccw488yaOW/e355b30ace0e4d6ee9aad7ffdcf549b6/black_panther.gif",
+            "details": {
+              "size": 4711930,
+              "image": {
+                "width": 600,
+                "height": 600
+              }
+            },
+            "fileName": "black panther.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    }
   ],
   "locales": [
     {
@@ -572,8 +1514,7 @@
       }
     }
   ],
-  "webhooks": [
-  ],
+  "webhooks": [],
   "roles": [
     {
       "name": "Editor",
@@ -613,19 +1554,12 @@
         }
       ],
       "permissions": {
-        "ContentModel": [
-          "read"
-        ],
-        "Settings": [
-        ],
-        "ContentDelivery": [
-        ],
-        "Environments": [
-        ],
-        "EnvironmentAliases": [
-        ],
-        "Tags": [
-        ]
+        "ContentModel": ["read"],
+        "Settings": [],
+        "ContentDelivery": [],
+        "Environments": [],
+        "EnvironmentAliases": [],
+        "Tags": []
       },
       "sys": {
         "type": "Role",
