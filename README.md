@@ -1,32 +1,55 @@
-# contentful-migration-poc
+# Contentful Migration Proof-of-Concept (POC)
 
-A POC for contentful migration
+This repository provides a practical demonstration of Contentful migrations.
 
+---
 
-Minimal Steps to follow for migration —> 
+## :rocket: Getting Started
 
-- Create a migrations directory in root where the migrations will be written in js/ts files.
-- The migration files need to be added in incremental order(For version tracking)
-- Add a script to run these migrations
+The following initial steps establish the structure for managing your migrations:
 
-For Continuous Integration, GitHub actions can be used. 
+1. **Create a migrations directory**: Establish a directory at your project's root level, where all JavaScript or TypeScript migration scripts will be stored.
 
-Here's a breakdown of steps that need to be taken care of : - 
+2. **Order Migration Files**: Ensure migration files are organized in an incremental order to maintain version tracking.
 
-- Create a separate branch for writing any new migration
-- Add Migration runner script
-- Add Migration file
-- Export and save the latest 'master' environment content type data from Contentful.
-- Create a new temporary Contentful environment.
-- Import latest 'master' environment content type data into this new temporary environment
-- Run migrations on this new temporary branch.
-- Test that temporary environment.
-- If all goes well, merge the migration branch to master.
-- Run migrations on master branch
-- Delete temporary Contentful environment.
+3. **Develop Migration Running Script**: Implement a script to run the migrations.
 
-Migration script also needs to handle version tracking. To persist version tracking data, we need to create a new Content-type on Contentful space. 
+4. **Incorporate GitHub Actions**: Utilize GitHub Actions for continuous integration to automate the migration process.
 
-I tried mainly two libraries `contentful-migrate` & `contentful-migraiton`.  Although, going with contentful migrate was a little less work for us but it had some open unresolved issues which have been there for quite some time so finally went with `contentful-migration`
+---
 
-Note: We want to save the latest Content Type data from master environment because there is no availability of rollback support in Contentful.
+## :gear: Detailed Migration Workflow
+
+The migration process follows these detailed steps:
+
+1. **Create a Migration Branch**: Each new migration should be isolated in a separate branch.
+
+2. **Implement Migration Runner Script**: Develop a script responsible for executing the migrations.
+
+3. **Add Migration File**: Include your specific migration instructions in a migration file.
+
+4. **Export 'master' Environment Data**: Preserve the latest 'master' environment content type data from Contentful by exporting and saving it.
+
+5. **Create Temporary Contentful Environment**: Generate a new Contentful environment as a temporary host during the migration.
+
+6. **Import 'master' Environment Data**: Load the exported 'master' environment data into the new temporary environment.
+
+7. **Run Migrations in Temporary Environment**: Execute the migration scripts in the temporary environment.
+
+8. **Test the Temporary Environment**: Verify the success of migrations and overall system functionality.
+
+9. **Merge Migration Branch**: Once testing confirms the system's proper behavior, merge the migration branch into the master branch.
+
+10. **Execute Migrations on 'master' Branch**: Run migrations on the 'master' branch post-merge.
+
+11. **Remove Temporary Environment**: After successful migration, eliminate the temporary Contentful environment.
+
+12. **Manage Version Tracking**: The migration script should handle version tracking. To preserve version tracking data, introduce a new Content-type on the Contentful space.
+
+---
+
+## :mag_right: Libraries Tested
+
+During this proof-of-concept, we evaluated two libraries: `contentful-migrate` and `contentful-migration`. Although `contentful-migrate` required less preliminary work, it has lingering unresolved issues. Consequently, we decided on `contentful-migration` for the final implementation.
+
+> **Note**: The preservation of the latest Content Type data from the master environment is crucial due to the lack of rollback support in Contentful.
